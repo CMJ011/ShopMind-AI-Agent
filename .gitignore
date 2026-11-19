@@ -1,0 +1,16 @@
+# 🔒 机密文件（千万别传）
+.env
+
+# 🐍 Python 缓存
+__pycache__/
+*.py[cod]
+.venv/
+
+# 🗄️ 本地数据库（包含测试用户，不建议传）
+*.db
+*.sqlite3
+
+# 💻 编辑器配置
+.vscode/
+.idea/
+.DS_Store
