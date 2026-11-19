@@ -15,3 +15,13 @@
 3. 初始化数据库并创建测试用户：
    ```bash
    python -c "from backend.app.models import SessionLocal, User; db = SessionLocal(); db.add(User(username='userA', token='tokenA')); db.commit()"
+
+### 📸 界面预览
+![用户端](docs/images/chat_demo.png)
+<img width="1888" height="1007" alt="chat_demo" src="https://github.com/user-attachments/assets/bb289e58-a391-44a7-a5b0-6d1c0acf40a9" />
+![坐席端](docs/images/agent_demo.png)
+<img width="1856" height="1025" alt="agent_demo" src="https://github.com/user-attachments/assets/e5686ff7-a664-493f-9176-f62cf5a7d01d" />
+
+![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-green?logo=fastapi)
+![License](https://img.shields.io/badge/License-MIT-yellow)
